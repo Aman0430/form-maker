@@ -1,12 +1,5 @@
 import { GetFormStats, GetForms } from "@/actions/form";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ReactNode, Suspense } from "react";
 import { LuView } from "react-icons/lu";
@@ -118,9 +111,7 @@ export function StatsCard({
   return (
     <Card className={className}>
       <CardHeader className="flex flex-row items-center justify-between pb-2">
-        <CardTitle className="text-sm font-medium text-muted-foreground">
-          {title}
-        </CardTitle>
+        <CardTitle className="text-sm font-medium text-muted-foreground">{title}</CardTitle>
         {icon}
       </CardHeader>
       <CardContent>
@@ -188,11 +179,7 @@ function FormCard({ form }: { form: Form }) {
           </Button>
         )}
         {!form.published && (
-          <Button
-            asChild
-            variant={"secondary"}
-            className="w-full mt-2 text-md gap-4"
-          >
+          <Button asChild variant={"secondary"} className="w-full mt-2 text-md gap-4">
             <Link href={`/builder/${form.id}`}>
               Edit form <FaEdit />
             </Link>
