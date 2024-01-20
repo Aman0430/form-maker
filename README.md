@@ -1,29 +1,32 @@
-![pageform_thumbnail](https://github.com/Kliton/yt_pageform/assets/10452377/610b5935-5afd-4126-9dfd-a7064e18a0db)
+# Form Maker App
 
-[Discord server for problems/help](https://discord.gg/Gc3ShuJrYE)
+Create custom forms effortlessly with the Form Maker app.
 
-[Youtube video](https://youtu.be/QGXUUXy0AMw)
+## Table of Contents
 
-[LIVE DEMO](https://yt-pageform.vercel.app/)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In this 4 hour tutorial we are going to build this full stack PageForm application.
+## Features
 
-We are going to build this with:
-- Nextjs 13  with AppRouter
-- Dnd-kit library
-- ServerActions
-- Typescript
-- Tailwindcss / Shadcn UI
-- Vercel PostgreSQL
-- Prisma as ORM
+- **Intuitive Form Creation**: Build forms easily with a user-friendly interface.
+- **Customizable Fields**: Add various types of fields to your forms, such as text, dropdown, checkboxes, etc.
+- **Form Templates**: Use pre-built templates or save your custom forms as templates for reuse.
+- **Data Export**: Export form submissions in various formats (CSV, JSON, etc.).
+- **Responsive Design**: Forms are optimized for different screen sizes.
 
-Features: 
-- Responsive
-- Create forms with a stunning drag and drop designer
-- Layout fields: Title, SubTitle, Spacer, Separator, Paragraph
-- Form fields: Text, Number, Select, Date, Checkbox, Textarea
-- Is easy to add and customize new fields
-- Form preview dialog
-- Share form url
-- Form submission/validation
-- Form stats: visits and submissions
+## Installation
+
+To get started with the Form Maker app, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/form-maker.git
+   npm install
+   setup environment variables
+   npm run dev
+   ```
